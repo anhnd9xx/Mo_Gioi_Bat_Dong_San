@@ -1,4 +1,4 @@
-# MoiGioiBatDongSan
+# He Thong Quan Ly Khach San
 
 + Đầy đủ các chức năng quản lý người dùng
 + Quản lý được nhân sự
