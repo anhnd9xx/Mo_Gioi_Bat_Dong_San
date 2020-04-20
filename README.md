@@ -20,6 +20,3 @@ Team members:
 + 20176073: Kiều Lê Việt Anh
 + 20187323: Vũ Trọng Khang
 
-
-Rules:
-+ Branche naming: ID + name of task (visdu: #2-initiation Framework code)
