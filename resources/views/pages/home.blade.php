@@ -284,6 +284,10 @@
                     </td>
                 </tr>
             </table>
+<<<<<<< HEAD
+=======
+            <a href="phong/double-room-6/index.html" class="button1 hb1"><span>Xem thêm</span></a>
+>>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
         </div>
 
     </div>
@@ -313,6 +317,10 @@
                     </td>
                 </tr>
             </table>
+<<<<<<< HEAD
+=======
+            <a href="phong/double-room-5/index.html" class="button1 hb1"><span>Xem thêm</span></a>
+>>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
         </div>
 
     </div>
@@ -342,6 +350,10 @@
                     </td>
                 </tr>
             </table>
+<<<<<<< HEAD
+=======
+            <a href="phong/double-room-4/index.html" class="button1 hb1"><span>Xem thêm</span></a>
+>>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
         </div>
 
     </div>
