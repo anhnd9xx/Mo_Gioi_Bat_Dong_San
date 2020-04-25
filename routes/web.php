@@ -12,5 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// frontend
 Route::get('/', 'HomeController@index');
+Route::get('/gioi-thieu', 'HomeController@intro');
+Route::get('/hang-phong', 'HomeController@room');
+Route::get('/dich-vu', 'HomeController@service');
+Route::get('/dat-phong', 'HomeController@booking');
+Route::get('/dang-ky', 'HomeController@sign_up');
+Route::get('/dang-nhap', 'HomeController@sign_in');
+
+

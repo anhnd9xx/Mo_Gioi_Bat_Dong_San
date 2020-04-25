@@ -284,7 +284,6 @@
                     </td>
                 </tr>
             </table>
-            <a href="phong/double-room-6/index.html" class="button1 hb1"><span>Xem thêm</span></a>
         </div>
 
     </div>
@@ -314,7 +313,6 @@
                     </td>
                 </tr>
             </table>
-            <a href="phong/double-room-5/index.html" class="button1 hb1"><span>Xem thêm</span></a>
         </div>
 
     </div>
@@ -344,7 +342,6 @@
                     </td>
                 </tr>
             </table>
-            <a href="phong/double-room-4/index.html" class="button1 hb1"><span>Xem thêm</span></a>
         </div>
 
     </div>
