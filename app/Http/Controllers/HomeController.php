@@ -27,5 +27,14 @@ class HomeController extends Controller
     public function sign_in(){
         return view('pages.sign_in');
     }
+    public function db_room(){
+        return view('pages.db_room');
+    }
+    public function vip1(){
+        return view('pages.vip1');
+    }
+    public function vip2(){
+        return view('pages.vip2');
+    }
 
 }

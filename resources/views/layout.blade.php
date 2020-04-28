@@ -1124,8 +1124,6 @@
 
 <body data-rsssl=1 class="home page-template page-template-page-blank page-template-page-blank-php page page-id-95 theme-flatsome woocommerce-no-js lightbox nav-dropdown-has-arrow">
 
-    <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
-
     <div id="wrapper">
 
         <header id="header" class="header has-sticky sticky-jump">
@@ -1140,7 +1138,7 @@
                                         <li class="">
                                             <a href="mailto:youremail@gmail.com" class="tooltip" title="youremail@gmail.com">
                                                 <i class="fa fa-envelope" aria-hidden="true" style="font-size:16px;"></i> <span>
-			                                  	Contact			       </span>
+			                                  	Liên hệ			       </span>
                                             </a>
                                         </li>
 
@@ -1247,13 +1245,9 @@
                         <div class="flex-col hide-for-medium flex-right">
                             <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
                                 <li class="html header-social-icons ml-0">
-<<<<<<< HEAD
                                     <div class="social-icons follow-icons">
                                     <a href="{{URL::to('/dang-nhap')}}"  rel="noopener noreferrer nofollow" class="icon plain tooltip" ><i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a><span>|</span>
                                     <a href="{{URL::to('/dang-ky')}}" rel="noopener noreferrer nofollow" class="icon plain tooltip" >Đăng ký</a>
-=======
-                                    <div class="social-icons follow-icons"><a href="" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="" data-label="E-mail" rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
                                 </li>
                             </ul>
                         </div>
@@ -1300,17 +1294,10 @@
                         <div class="flex-col hide-for-medium flex-right">
                             <ul class="header-nav header-nav-main nav nav-right  nav-line-bottom nav-size-medium nav-spacing-xlarge">
                                 <li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-95 current_page_item active  menu-item-751"><a href="{{URL::to('/')}}" class="nav-top-link">Trang chủ</a></li>
-<<<<<<< HEAD
                                 <li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-752"><a href="{{URL::to('/gioi-thieu')}}" class="nav-top-link">Giới thiệu</a></li>
                                 <li id="menu-item-753" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-753"><a href="{{URL::to('/hang-phong')}}" class="nav-top-link">Hạng phòng</a></li>
                                 <li id="menu-item-778" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-778"><a href="{{URL::to('/dich-vu')}}" class="nav-top-link">Dịch vụ</a></li>
                                 <li id="menu-item-804" class="booking menu-item menu-item-type-post_type menu-item-object-page  menu-item-804"><a href="{{URL::to('dat-phong')}}" class="nav-top-link">Đặt phòng</a></li>
-=======
-                                <li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-752"><a href="gioi-thieu/index.html" class="nav-top-link">Giới thiệu</a></li>
-                                <li id="menu-item-753" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-753"><a href="hang-phong/index.html" class="nav-top-link">Hạng phòng</a></li>
-                                <li id="menu-item-778" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-778"><a href="dich-vu/index.html" class="nav-top-link">Dịch vụ</a></li>
-                                <li id="menu-item-804" class="booking menu-item menu-item-type-post_type menu-item-object-page  menu-item-804"><a href="dat-phong/index.html" class="nav-top-link">Đặt phòng</a></li>
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
                             </ul>
                         </div>
 
@@ -1443,16 +1430,15 @@
                 </div>
 
                 @yield('content')
-<<<<<<< HEAD
                 @yield('introduction')
                 @yield('room')
                 @yield('service')
                 @yield('booking')
                 @yield('sign_up')
                 @yield('sign_in')
-=======
-
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
+                @yield('db_room')
+                @yield('vip1')
+                @yield('vip2')
             </div>
 
         </main>
@@ -1482,17 +1468,6 @@
 
                                     <div class="col medium-6 small-12 large-6">
                                         <div class="col-inner">
-
-                                        </div>
-                                    </div>
-                                    <div class="col cl-wt medium-6 small-12 large-6">
-                                        <div class="col-inner">
-
-                                            <div class="gap-element clearfix" style="display:block; height:auto; padding-top:15px"></div>
-
-                                            <div class="social-icons follow-icons icon1 full-width text-center" style="font-size:140%"><a href="#" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="#" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram" ></i></a><a href="#" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="#" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon plain  youtube tooltip" title="Follow on YouTube"><i class="icon-youtube" ></i></a></div>
-
-                                            <div class="gap-element clearfix" style="display:block; height:auto; padding-top:15px"></div>
 
                                         </div>
                                     </div>
@@ -1643,12 +1618,7 @@
                 <li class="header-search-form search-form html relative has-icon">
                     <div class="header-search-form-wrapper">
                         <div class="searchform-wrapper ux-search-box relative is-normal">
-<<<<<<< HEAD
                             <form role="search" method="get" class="searchform" action="">
-                                <div class="flex-row relative">
-                                    <div class="flex-col flex-grow">
-=======
-                            <form role="search" method="get" class="searchform" action="https://www.sunhotelhaiduong.com.vn/">
                                 <div class="flex-row relative">
                                     <div class="flex-col flex-grow">
                                         <input type="search" class="search-field mb-0" name="s" value="" placeholder="Tìm kiếm&hellip;" />
@@ -1660,7 +1630,6 @@
                                             <i class="icon-search"></i> </button>
                                     </div>
                                     <!-- .flex-col -->
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
                                 </div>
                                 <!-- .flex-row -->
                                 <div class="live-search-results text-left z-top"></div>
@@ -1668,7 +1637,6 @@
                         </div>
                     </div>
                 </li>
-<<<<<<< HEAD
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-95 current_page_item menu-item-751"><a href="{{URL::to('/')}}" class="nav-top-link">Trang chủ</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="{{URL::to('/gioi-thieu')}}" class="nav-top-link">Giới thiệu</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753"><a href="{{URL::to('/hang-phong')}}" class="nav-top-link">Hạng phòng</a></li>
@@ -1682,81 +1650,11 @@
 
                 </li>
                 
-=======
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-95 current_page_item menu-item-751"><a href="index.html" class="nav-top-link">Trang chủ</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="gioi-thieu/index.html" class="nav-top-link">Giới thiệu</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-753"><a href="hang-phong/index.html" class="nav-top-link">Hạng phòng</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-778"><a href="dich-vu/index.html" class="nav-top-link">Dịch vụ</a></li>
-                <li class="booking menu-item menu-item-type-post_type menu-item-object-page menu-item-804"><a href="dat-phong/index.html" class="nav-top-link">Đặt phòng</a></li>
-                <li class="account-item has-icon menu-item">
-                    <a href="#" class="nav-top-link nav-top-not-logged-in">
-                        <span class="header-account-title">
-                            Đăng nhập  </span>
-                    </a>
-                    <!-- .account-login-link -->
-
-                </li>
-                <li class="header-newsletter-item has-icon">
-
-                    <a href="#header-newsletter-signup" class="tooltip" title="Sign up for Newsletter">
-
-                        <!-- <i class="icon-envelop"></i> -->
-                        <span class="header-newsletter-title">
-                      Newsletter    </span>
-                    </a>
-                    <!-- .newsletter-link -->
-
-                </li>
-                <li class="html header-social-icons ml-0">
-                    <div class="social-icons follow-icons"><a href="" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Follow on Facebook"><i class="icon-facebook" ></i></a><a href="http://url/" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Follow on Instagram"><i class="icon-instagram" ></i></a><a href="http://url/" target="_blank" data-label="Twitter" rel="noopener noreferrer nofollow" class="icon plain  twitter tooltip" title="Follow on Twitter"><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail" rel="nofollow" class="icon plain  email tooltip" title="Send us an email"><i class="icon-envelop" ></i></a></div>
-                </li>
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
             </ul>
         </div>
         <!-- inner -->
     </div>
     <!-- #mobile-menu -->
-<<<<<<< HEAD
-=======
-    <div id="login-form-popup" class="lightbox-content mfp-hide">
-        <div class="woocommerce-notices-wrapper"></div>
-        <div class="account-container lightbox-inner">
-
-            <div class="account-login-inner">
-
-                <h3 class="uppercase">Đăng nhập</h3>
-
-                <form class="woocommerce-form woocommerce-form-login login" method="post">
-
-                    <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                        <label for="username">Tên tài khoản hoặc địa chỉ email&nbsp;<span class="required">*</span></label>
-                        <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" /> </p>
-                    <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
-                        <label for="password">Mật khẩu&nbsp;<span class="required">*</span></label>
-                        <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
-                    </p>
-
-                    <p class="form-row">
-                        <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="c8a66eb7e3" />
-                        <input type="hidden" name="_wp_http_referer" value="/" />
-                        <button type="submit" class="woocommerce-Button button" name="login" value="Đăng nhập">Đăng nhập</button>
-                        <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
-                            <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Ghi nhớ mật khẩu</span>
-                        </label>
-                    </p>
-                    <p class="woocommerce-LostPassword lost_password">
-                        <a href="lost-password/index.html">Quên mật khẩu?</a>
-                    </p>
-
-                </form>
-            </div>
-            <!-- .login-inner -->
-
-        </div>
-        <!-- .account-login-container -->
-
-    </div>
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
 
     <script type="text/javascript">
         var c = document.body.className;

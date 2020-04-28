@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
 Project:# He Thong Quan Ly Khach San
 + Đầy đủ các chức năng quản lý người dùng
 + Quản lý được nhân sự
@@ -27,7 +23,4 @@ Team members:
 
 Danh sách công việc:
 https://bit.ly/2wSN9Kt
-<<<<<<< HEAD
->>>>>>> ae5a324b25dbed14bd9a335f38dd6b1127020621
-=======
->>>>>>> cbc5a282fe0d975d7d92090e7d71fe8ac28627fb
+
