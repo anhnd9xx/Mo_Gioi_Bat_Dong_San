@@ -25,3 +25,8 @@ Route::get('/phong-vip1', 'HomeController@vip1');
 Route::get('/phong-vip2', 'HomeController@vip2');
 
 
+
+//backend
+Route::get('/admin', 'AdminController@index');
+
+
