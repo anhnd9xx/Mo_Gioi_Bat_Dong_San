@@ -11,7 +11,7 @@
       </div>
     <div style="margin-bottom:0px;" class="row">
         <div class="col medium-4">
-                <img class="hp-anh" src="public/frontend/images/zoom3.jpg">
+        <a href="{{URL::to('/phong-doi')}}" class=""><span><img class="hp-anh" src="public/frontend/images/zoom3.jpg"></span></a>
                 <div class="hp-box">
                     <p class="hp-color">Phòng Đôi</p> 
                     <p class="hp-tu"><span class="price">500.000đ</span>/ Đêm</p>
@@ -29,7 +29,7 @@
             </div>
   
         <div class="col medium-4">
-                <img class="hp-anh" src="public/frontend/images/zoom4.jpg">
+        <a href="{{URL::to('/phong-vip1')}}" class=""><span><img class="hp-anh" src="public/frontend/images/zoom4.jpg"></span></a>
                 <div class="hp-box">
                     <p class="hp-color">Phòng VIP 1</p> 
                     <p class="hp-tu"><span class="price">300.000đ</span>/ Đêm</p>
@@ -47,7 +47,7 @@
             </div>
   
         <div class="col medium-4">
-                <img class="hp-anh" src="public/frontend/images/sunhotel-3-min.jpg">
+        <a href="{{URL::to('/phong-vip2')}}" class=""><span><img class="hp-anh" src="public/frontend/images/sunhotel-3-min.jpg"></span></a>
                 <div class="hp-box">
                     <p class="hp-color">Phòng VIP 2</p> 
                     <p class="hp-tu"><span class="price">400.000đ</span>/ Đêm</p>

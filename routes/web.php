@@ -28,5 +28,6 @@ Route::get('/phong-vip2', 'HomeController@vip2');
 
 //backend
 Route::get('/admin', 'AdminController@index');
+Route::get('/dashboard', 'AdminController@dashboard');
 
 
