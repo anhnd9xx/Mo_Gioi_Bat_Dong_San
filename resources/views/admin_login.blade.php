@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="w3layouts-main">
 	<h2 style="color:#0c0c0c;">Trang quản lý Admin khách sạn</h2>
 		<form action="#" method="post">
+		{!! csrf_field() !!}
 			<input type="text" class="ggg" name="user" placeholder="Username" required="">
 			<input type="password" class="ggg" name="password" placeholder="Password" required="">
 			<span><input type="checkbox" />Nhớ tài khoản</span>
