@@ -102,11 +102,11 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='gtranslate-style-css' href='public/frontend/css/gtranslate-style2491d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='wp-block-library-css' href='public/frontend/css/style.min91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='wc-block-style-css' href='public/frontend/css/stylefc72.css?ver=2.5.14' type='text/css' media='all' />
-    <link rel='stylesheet' id='contact-form-7-css' href='public/frontend/css/styles6725.css?ver=5.1.7' type='text/css' media='all' />
-    <link rel='stylesheet' id='rs-plugin-settings-css' href='public/frontend/css/settingsf542.css?ver=5.4.8.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='gtranslate-style-css' href="{{asset('public/frontend/css/gtranslate-style2491d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href="{{asset('public/frontend/css/style.min91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='wc-block-style-css' href="{{asset('public/frontend/css/stylefc72.css?ver=2.5.14')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href="{{asset('public/frontend/css/styles6725.css?ver=5.1.7')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('public/frontend/css/settingsf542.css?ver=5.4.8.3')}}" type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
@@ -116,16 +116,16 @@
         }
     </style>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="public/frontend/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel='stylesheet' id='flatsome-icons-css' href='public/frontend/css/fl-icons6de8.css?ver=3.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='flatsome-ninjaforms-css' href='public/frontend/css/ninjaforms91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='style-css' href='public/frontend/css/slick91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='style_css-css' href='public/frontend/css/slick-theme91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='style_css2-css' href='public/frontend/css/datepicker.min91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='dtpicker-css' href='public/frontend/js/jquery.datetimepicker.min91d5.css?ver=5.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='flatsome-main-css' href='public/frontend/css/flatsome7e2e.css?ver=3.8.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='flatsome-shop-css' href='public/frontend/css/flatsome-shop7e2e.css?ver=3.8.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='flatsome-style-css' href='public/frontend/css/style6aec.css?ver=3.0' type='text/css' media='all' />
+    <link href="{{asset('public/frontend/css/font-awesome.min.css')}}" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel='stylesheet' id='flatsome-icons-css' href="{{asset('public/frontend/css/fl-icons6de8.css?ver=3.3')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='flatsome-ninjaforms-css' href="{{asset('public/frontend/css/ninjaforms91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css' href="{{asset('public/frontend/css/slick91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='style_css-css' href="{{asset('public/frontend/css/slick-theme91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='style_css2-css' href="{{asset('public/frontend/css/datepicker.min91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='dtpicker-css' href="{{asset('public/frontend/js/jquery.datetimepicker.min91d5.css?ver=5.4')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='flatsome-main-css' href="{{asset('public/frontend/css/flatsome7e2e.css?ver=3.8.1')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='flatsome-shop-css' href="{{asset('public/frontend/css/flatsome-shop7e2e.css?ver=3.8.1')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id='flatsome-style-css' href="{{asset('public/frontend/css/style6aec.css?ver=3.0')}}" type='text/css' media='all' />
     <script type="text/javascript">
         (function(a, d) {
             if (a._nsl === d) {
@@ -156,7 +156,7 @@
     <link rel='https://api.w.org/' href='wp-json/index.html' />
     <meta name="generator" content="WordPress 5.4" />
     <meta name="generator" content="WooCommerce 4.0.1" />
-    <link rel='shortlink' href='index.html' />
+    <link rel='shortlink' href="{{URL::to('/')}}" />
     <style>
         .bg {
             opacity: 0;
@@ -1268,7 +1268,7 @@
                         <!-- Logo -->
                         <div id="logo" class="flex-col logo">
                             <!-- Header logo -->
-                            <a href="index.html" title="SunHotel - Hải Dương" rel="home">
+                            <a href="{{URL::to('/')}}" title="SunHotel - Hải Dương" rel="home">
                                 <img width="200" height="100" src="public/frontend/images/Group-2833-min.png" class="header_logo header-logo" alt="SunHotel" /><img width="200" height="100" src="public/frontend/images/Group-2833-min.png" class="header-logo-dark" alt="SunHotel" /></a>
                         </div>
 
