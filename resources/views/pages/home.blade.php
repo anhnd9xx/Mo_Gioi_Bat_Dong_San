@@ -27,7 +27,7 @@
                             <div class="icon-box-text last-reset">
 
                                 <p><span style="color: #ab7727;">Khách sạn cao cấp</span>
-                                    <br /><span style="color: #ab7727;">chất lượng</span></p>
+                                    <br /><span style="color: #ab7727;">chất lượng cao</span></p>
 
                             </div>
                         </div>
