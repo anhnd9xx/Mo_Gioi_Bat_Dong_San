@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'fl-icons';
+    src: url("public/frontend/fonts/fl-icons.eot");
+    src: url("public/frontend/fonts/fl-icons.eot#iefix") format("embedded-opentype"), url("public/frontend/fonts/fl-icons.woff2") format("woff2"), url("public/frontend/fonts/fl-icons.ttf") format("truetype"), url("public/frontend/fonts/fl-icons.woff") format("woff"), url("public/frontend/fonts/fl-icons.svg#fl-icons") format("svg")
+}
+
+.lazy-icons i[class^="icon-"] {
+    visibility: visible !important
+}
