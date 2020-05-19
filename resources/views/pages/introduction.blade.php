@@ -15,7 +15,7 @@
 <div class="col trainghiem medium-5 small-12 large-5"><div class="col-inner">
 
 <h2><span style="color: #ab7727; font-size: 120%;">Cùng trải nghiệm <br>không gian tuyệt vời</span></h2>
-<p>Có địa chỉ tại Lô 31.1 Khu đô thị Thiên Phú, Phường Tứ Minh, thành phố Hải Dương, Sun hotel được khách hàng tin chọn biết đến là khách sạn có chất lượng dịch vụ nghỉ dưỡng bậc nhất tại Hải Dương.&nbsp;<em>Luôn quan tâm tới trải nghiệm khách hàng, quy trình làm việc của nhân viên tại khách sạn, Sun Hotel là điểm đến giữ chân và tạo cảm giác thoải mái cho khách hàng khi tới nơi đây 1</em></p>
+<p>Có địa chỉ tại Lô 31.1 Khu đô thị Thiên Phú, Phường Tứ Minh, thành phố Hải Dương, Sun hotel được khách hàng tin chọn biết đến là khách sạn có chất lượng dịch vụ nghỉ dưỡng bậc nhất tại Hải Dương.&nbsp;<em>Luôn quan tâm tới trải nghiệm khách hàng, quy trình làm việc của nhân viên tại khách sạn, Sun Hotel là điểm đến giữ chân và tạo cảm giác thoải mái cho khách hàng khi tới nơi đây</em></p>
 <p>&nbsp;</p>
 
 </div></div>
