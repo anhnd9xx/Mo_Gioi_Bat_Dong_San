@@ -28,7 +28,10 @@ Route::get('/phong-vip2', 'HomeController@vip2');
 
 //backend
 Route::get('/admin', 'AdminController@index');
+<<<<<<< HEAD
 Route::post('/admin-dashboard', 'AdminController@admin_dashboard');
+=======
+>>>>>>> b4afd5a7f91134f40bb2a9a84a33bdaf3a9c5a82
 Route::get('/dashboard', 'AdminController@dashboard');
 
 

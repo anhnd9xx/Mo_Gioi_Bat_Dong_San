@@ -27,7 +27,11 @@
                             <div class="icon-box-text last-reset">
 
                                 <p><span style="color: #ab7727;">Khách sạn cao cấp</span>
+<<<<<<< HEAD
                                     <br /><span style="color: #ab7727;">chất lượng</span></p>
+=======
+                                    <br /><span style="color: #ab7727;">chất lượng </span></p>
+>>>>>>> b4afd5a7f91134f40bb2a9a84a33bdaf3a9c5a82
 
                             </div>
                         </div>
@@ -47,7 +51,11 @@
                             </div>
                             <div class="icon-box-text last-reset">
 
+<<<<<<< HEAD
                                 <p><span style="color: #ab7727;">Đội ngũ nhân viên chuyên nghiệp 1</span></p>
+=======
+                                <p><span style="color: #ab7727;">Đội ngũ nhân viên chuyên nghiệp</span></p>
+>>>>>>> b4afd5a7f91134f40bb2a9a84a33bdaf3a9c5a82
 
                             </div>
                         </div>
