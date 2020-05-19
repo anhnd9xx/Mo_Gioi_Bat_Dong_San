@@ -59,7 +59,7 @@
 <div class="col medium-6 small-12 large-6"><div class="col-inner">
 
 <h1><span style="color: #000943;">Thông tin liên hệ</span><br><span style="color: #ab7727;">SUN HOTEL HAI DUONG</span><br><span style="color: #ab7727;"><img class="alignnone wp-image-347" src="public/frontend/images/Path-823-1.png" alt="" width="99" height="1"></span></h1>
-<p><span style="color: #ab7727;"><strong>Địa chỉ:</strong> Lô 31.1 khu đô thị Thiên Phú, Đại lộ Võ Nguyên Giáp, phường Tứ Minh, TP Hải Dương, tỉnh Hải Dương.</span></p>
+<p><span style="color: #ab7727;"><strong>Địa chỉ:123</strong> Lô 31.1 khu đô thị Thiên Phú, Đại lộ Võ Nguyên Giáp, phường Tứ Minh, TP Hải Dương, tỉnh Hải Dương.</span></p>
 
 </div></div>
 <div class="col medium-6 small-12 large-6"><div class="col-inner">
