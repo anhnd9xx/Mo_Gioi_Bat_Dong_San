@@ -16,7 +16,7 @@
 
 <p>
 Khách sạn SUN HOTEL HẢI DƯƠNG có 3 loại phòng: VIP 1, VIP 2 và Phòng đôi.<br>
-Các dịch vụ tại khách sạn:<br>
+Các dịch vụ tại khách sạn: a<br>
 –	Dịch vụ xe đưa đón.<br>
 –	Dịch vụ đặt vé máy bay.<br>
 –	Dịch vụ đổi ngoại tệ.<br>
