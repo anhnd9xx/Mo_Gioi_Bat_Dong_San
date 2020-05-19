@@ -66,7 +66,7 @@
 
 <div class="gap-element clearfix" style="display:block; height:auto; padding-top:39px"></div>
 
-<p><span style="color: #ab7727;"><strong>Số điện thoại:123</strong> 09999999999 – 09999999999</span></p>
+<p><span style="color: #ab7727;"><strong>Số điện thoại:</strong> 09999999999 – 09999999999</span></p>
 <p><span style="color: #ab7727;"><strong>Email:</strong> sunhotelhaiduong@gmail.com</span></p>
 <p><span style="color: #ab7727;"><strong>Fax:</strong> 99999999999</span></p>
 
