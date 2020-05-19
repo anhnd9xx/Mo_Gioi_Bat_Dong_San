@@ -17,7 +17,7 @@
      </div>
 
     <div class="col medium-3">
-        <p class="tu">Từ<br><span class="price">300.000đ</span>/ Đêm</p>
+        <p class="tu">Từ<br><span class="price">300.000đ</span>/ Đêm abg</p>
         <form action="" method="post">
             <input name="room_type" type="hidden" value="Phòng VIP 1">
             <button class="datphong" type="submit">TIẾN HÀNH ĐẶT PHÒNG</button>
