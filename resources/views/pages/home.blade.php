@@ -47,7 +47,7 @@
                             </div>
                             <div class="icon-box-text last-reset">
 
-                                <p><span style="color: #ab7727;">Đội ngũ nhân viên chuyên nghiệp</span></p>
+                                <p><span style="color: #ab7727;">Đội ngũ nhân viên chuyên nghiệp 1</span></p>
 
                             </div>
                         </div>
