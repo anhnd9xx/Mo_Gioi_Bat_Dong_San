@@ -3,6 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests;  
+use DB;
+use Session;
+use Illuminate\Support\Facades\Redirect;
+session_start();
+use App\Account;
+
 
 class HomeController extends Controller
 {
@@ -35,6 +42,36 @@ class HomeController extends Controller
     }
     public function vip2(){
         return view('pages.vip2');
+    }
+
+    //xử lý đăng kí phòng
+    public function signUp(Request $Request){
+        if (!isset($Request->name) or !isset($Request->age) or !isset($Request->phoneNumber) or !isset($Request->email) or !isset($Request->password)) {
+            return back()->with("error", "Bạn nhập thiếu thông tin!");
+        }
+        else{
+        $account = Account::create([
+            "name" => $Request->name,
+         "age" => $Request->age,
+         "phoneNumber" => $Request->phoneNumber,
+         "email" => $Request->email,
+         "password" => md5($Request->password),
+        ]);
+        return Redirect::to('/dang-nhap')->with("account",$account)->with("success","Đăng kí thành công, vui lòng đăng  nhập!");
+        }
+    }
+    // xử lý đăng nhập người dùng
+    public function signIn(Request $Request){
+        $phoneNumber=$Request->phoneNumber;
+		$password=md5($Request->password);
+		$result = DB::table('users')->where('phoneNumber',$phoneNumber)->where('password',$password)->first();
+		if($result){
+			session::put('name',$result->name);
+			session::put('id',$result->id);
+			return Redirect::to('/');
+		}else {
+			return back()->with("error","Tài khoản hoặc mật khẩu sai rồi! Nhập lại đi ^^");
+		}
     }
 
 }

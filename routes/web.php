@@ -24,6 +24,9 @@ Route::get('/phong-doi', 'HomeController@db_room');
 Route::get('/phong-vip1', 'HomeController@vip1');
 Route::get('/phong-vip2', 'HomeController@vip2');
 
+Route::post('/signUp', 'HomeController@signUp');
+Route::post('/signIn', 'HomeController@signIn');
+
 
 
 //backend
