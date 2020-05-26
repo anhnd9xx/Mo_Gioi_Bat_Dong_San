@@ -10,15 +10,19 @@ session_start();
 
 class AdminController extends Controller
 {
-    public function index(){
+    public function AuthLogin(){
+		$admin_id = session::get('admin_id');
+		if($admin_id){
+			return Redirect::to('/dashboard');
+		}
+		else return Redirect::to('/admin')->send();
+	}
+    public function login(){
         return view('admin_login');
     }
-    public function dashboard(){
-        return view('admin_layout');
-    }
-    public function admin_dashboard(Request $Request){
-        $admin_email=$Request->admin_email;
-		$admin_password=md5($Request->admin_password);
+    public function show_dashboard(Request $request){
+        $admin_email=$request->admin_email;
+		$admin_password=md5($request->admin_password);
 		$result = DB::table('tbl_admin')->where('admin_email',$admin_email)->where('admin_password',$admin_password)->first();
 		if($result){
 			session::put('admin_name',$result->admin_name);
@@ -29,4 +33,17 @@ class AdminController extends Controller
 			return Redirect::to('/admin');
 		}
     }
+    public function account(){
+		$this->AuthLogin();
+   		return view('admin.account');
+    }
+    public function dashboard(){
+		$this->AuthLogin();
+   		return view('admin.dashboard');
+    }
+    public function logout(){
+		session::put('admin_name',null);
+		session::put('admin_id',null);
+    	return Redirect::to('/admin');
+    } 
 }

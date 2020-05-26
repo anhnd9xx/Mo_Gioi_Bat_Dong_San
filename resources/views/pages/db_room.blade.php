@@ -30,7 +30,7 @@ Các dịch vụ tại khách sạn:<br>
 
     <div class="col medium-3">
         <p class="tu">Từ<br><span class="price">500.000đ</span>/ Đêm</p>
-        <form action="{{URL::to('/dat-phong')}}" method="post">
+        <form action="{{URL::to('/dat-phong')}}" method="get">
             <input name="room_type" type="hidden" value="Phòng Đôi">
             <button class="datphong" type="submit">TIẾN HÀNH ĐẶT PHÒNG</button>
         </form>

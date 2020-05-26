@@ -5,114 +5,12 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="google-site-verification" content="lTMlr26mnFp-Y6-3n_WJFU1A_ZGM_uqKpvNuF9uZE-U" />
-
-    <link rel="profile" href="https://gmpg.org/xfn/11" />
-    <link rel="pingback" href="xmlrpc.php" />
-
-    <script>
-        (function(html) {
-            html.className = html.className.replace(/\bno-js\b/, 'js')
-        })(document.documentElement);
-    </script>
     <title>Khách sạn Hải Dương Sun</title>
-
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <link rel="canonical" href="index.html" />
-    <meta property="og:locale" content="vi_VN" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Khách sạn Hải Dương Sun" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="SunHotel" />
-    <meta property="og:image" content="{{asset('public/frontend/images/bm.jpg')}}" />
-    <meta property="og:image:secure_url" content="public/frontend/images/bm.jpg" />
-    <meta property="og:image:width" content="750" />
-    <meta property="og:image:height" content="500" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Khách sạn Hải Dương Sun" />
-    <meta name="twitter:image" content="public/frontend/images/bm.jpg" />
-    <meta name="google-site-verification" content="lTMlr26mnFp-Y6-3n_WJFU1A_ZGM_uqKpvNuF9uZE-U" />
-    <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel="alternate" type="application/rss+xml" title="Dòng thông tin SunHotel &raquo;" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi SunHotel &raquo;" href="comments/feed/index.html" />
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "public/frontend/js/wp-emoji-release.min.js?ver=5.4"
-            }
-        };
-        /*! This file is auto-generated */
-        ! function(e, a, t) {
-            var r, n, o, i, p = a.createElement("canvas"),
-                s = p.getContext && p.getContext("2d");
-
-            function c(e, t) {
-                var a = String.fromCharCode;
-                s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
-                var r = p.toDataURL();
-                return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
-            }
-
-            function l(e) {
-                if (!s || !s.fillText) return !1;
-                switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
-                    case "flag":
-                        return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
-                    case "emoji":
-                        return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
-                }
-                return !1
-            }
-
-            function d(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-            for (i = Array("flag", "emoji"), t.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function() {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                "complete" === a.readyState && t.readyCallback()
-            })), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-    </style>
     <link rel='stylesheet' id='gtranslate-style-css' href="{{asset('public/frontend/css/gtranslate-style2491d5.css?ver=5.4')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href="{{asset('public/frontend/css/style.min91d5.css?ver=5.4')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='wc-block-style-css' href="{{asset('public/frontend/css/stylefc72.css?ver=2.5.14')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='contact-form-7-css' href="{{asset('public/frontend/css/styles6725.css?ver=5.1.7')}}" type='text/css' media='all' />
     <link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('public/frontend/css/settingsf542.css?ver=5.4.8.3')}}" type='text/css' media='all' />
-    <style id='rs-plugin-settings-inline-css' type='text/css'>
-        #rs-demo-id {}
-    </style>
-    <style id='woocommerce-inline-inline-css' type='text/css'>
-        .woocommerce form .form-row .required {
-            visibility: visible;
-        }
-    </style>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="{{asset('public/frontend/css/font-awesome.min.css')}}" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel='stylesheet' id='flatsome-icons-css' href="{{asset('public/frontend/css/fl-icons6de8.css?ver=3.3')}}" type='text/css' media='all' />
@@ -155,72 +53,8 @@
     <meta name="generator" content="WordPress 5.4" />
     <meta name="generator" content="WooCommerce 4.0.1" />
     <link rel='shortlink' href="{{URL::to('/')}}" />
-    <style>
-        .bg {
-            opacity: 0;
-            transition: opacity 1s;
-            -webkit-transition: opacity 1s;
-        }
-        
-        .bg-loaded {
-            opacity: 1;
-        }
-    </style>
-    <script type="text/javascript">
-        WebFontConfig = {
-            google: {
-                families: ["Tinos:regular,regular", "Muli:regular,regular", "Muli:regular,700", "Tinos:regular,regular", ]
-            }
-        };
-        (function() {
-            var wf = document.createElement('script');
-            wf.src = 'public/frontend/js/webfont.js';
-            wf.type = 'text/javascript';
-            wf.async = 'true';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(wf, s);
-        })();
-    </script>
-    <noscript>
-        <style>
-            .woocommerce-product-gallery {
-                opacity: 1 !important;
-            }
-        </style>
-    </noscript>
     <meta name="generator" content="Powered by Slider Revolution 5.4.8.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <script type="text/javascript">
-        function setREVStartSize(e) {
-            try {
-                e.c = jQuery(e.c);
-                var i = jQuery(window).width(),
-                    t = 9999,
-                    r = 0,
-                    n = 0,
-                    l = 0,
-                    f = 0,
-                    s = 0,
-                    h = 0;
-                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
-                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
-                    var u = (e.c.width(), jQuery(window).height());
-                    if (void 0 != e.fullScreenOffsetContainer) {
-                        var c = e.fullScreenOffsetContainer.split(",");
-                        if (c) jQuery.each(c, function(e, i) {
-                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
-                    }
-                    f = u
-                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-                e.c.closest(".rev_slider_wrapper").css({
-                    height: f
-                })
-            } catch (d) {
-                console.log("Failure at Presize of Slider:" + d)
-            }
-        };
-    </script>
+   
     <style id="custom-css" type="text/css">
         :root {
             --primary-color: #ab7727;
@@ -1844,6 +1678,254 @@
         </div>
     </div>
     <!-- -------------------------------------------------- -->
+
+    <style type="text/css">
+        .fix_tel {
+            left: 0;
+            position: fixed;
+            z-index: 99999;
+        }
+        
+        .ring-alo-phone.ring-alo-show {
+            visibility: visible;
+        }
+        
+        .ring-alo-phone {
+            background-color: transparent;
+            cursor: pointer;
+            height: 80px;
+            position: fixed;
+            transition: visibility 0.5s ease 0s;
+            visibility: hidden;
+            width: 80px;
+            z-index: 9999999;
+            right: 10px !important;
+        }
+        
+        .ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
+            background-color: #f00;
+        }
+        
+        .ring-alo-phone.ring-alo-green .ring-alo-ph-circle {
+            border-color: #f00;
+            opacity: 0.5;
+        }
+        
+        .ring-alo-ph-circle {
+            animation: 1.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim;
+            background-color: transparent;
+            border: 2px solid rgba(30, 30, 30, 0.4);
+            border-radius: 100%;
+            height: 70px;
+            left: 10px;
+            opacity: 0.1;
+            position: absolute;
+            top: 14px;
+            transform-origin: 50% 50% 0;
+            transition: all 0.5s ease 0s;
+            width: 70px;
+        }
+        
+        .ring-alo-phone {
+            bottom: 45% !important;
+        }
+        
+        .ring-alo-ph-img-circle {
+            animation: 1s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            height: 30px;
+            left: 30px;
+            opacity: 1;
+            position: absolute;
+            top: 30px;
+            transform-origin: 50% 50% 0;
+            width: 30px;
+        }
+        
+        .ring-alo-ph-circle-fill {
+            animation: 2.3s ease-in-out 0s normal none infinite running ring-alo-circle-fill-anim;
+            background-color: #000;
+            border: 2px solid transparent;
+            border-radius: 100%;
+            height: 30px;
+            left: 30px;
+            opacity: 0.1;
+            position: absolute;
+            top: 30px;
+            transform-origin: 50% 50% 0;
+            transition: all 0.5s ease 0s;
+            width: 30px;
+        }
+        
+        .ring-alo-phone.ring-alo-green .ring-alo-ph-circle-fill {
+            background-color: rgba(0, 175, 242, 0.5);
+            opacity: 0.75;
+        }
+        
+        .ring-alo-ph-img-circle a.wich {
+            bottom: 5px !important;
+        }
+        
+        .fix_tel a {
+            text-decoration: none;
+        }
+        
+        .ring-alo-ph-img-circle a {
+            color: white;
+            display: block;
+            padding: 5px;
+        }
+        
+        .tel {
+            background: #007EC8 none repeat scroll 0 0 / 40px auto;
+            border: 1px solid #007EC8;
+            border-radius: 28px;
+            height: 40px;
+            overflow: hidden;
+            position: relative;
+            width: 205px;
+        }
+        
+        .fix_tel a {
+            text-decoration: none;
+        }
+        
+        .ring-alo-ph-img-circle a {
+            color: white;
+            display: block;
+            padding: 5px;
+        }
+        
+        .tel {
+            background: #007EC8 none repeat scroll 0 0 / 40px auto;
+            border: 1px solid #007EC8;
+            border-radius: 28px;
+            height: 40px;
+            overflow: hidden;
+            position: relative;
+            width: 205px;
+        }
+        
+        .fix_tel a {
+            text-decoration: none;
+        }
+        
+        .fone {
+            color: #fff;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 42px;
+            padding-left: 45px;
+        }
+        
+        @keyframes ring-alo-circle-anim {
+            0% {
+                opacity: 0.1;
+                transform: rotate(0deg) scale(0.5) skew(1deg);
+            }
+            30% {
+                opacity: 0.5;
+                transform: rotate(0deg) scale(0.7) skew(1deg);
+            }
+            100% {
+                opacity: 0.6;
+                transform: rotate(0deg) scale(1) skew(1deg);
+            }
+        }
+        
+        @keyframes ring-alo-circle-img-anim {
+            0% {
+                transform: rotate(0deg) scale(1) skew(1deg);
+            }
+            10% {
+                transform: rotate(-25deg) scale(1) skew(1deg);
+            }
+            20% {
+                transform: rotate(25deg) scale(1) skew(1deg);
+            }
+            30% {
+                transform: rotate(-25deg) scale(1) skew(1deg);
+            }
+            40% {
+                transform: rotate(25deg) scale(1) skew(1deg);
+            }
+            50% {
+                transform: rotate(0deg) scale(1) skew(1deg);
+            }
+            100% {
+                transform: rotate(0deg) scale(1) skew(1deg);
+            }
+        }
+        
+        @keyframes ring-alo-circle-fill-anim {
+            0% {
+                opacity: 0.2;
+                transform: rotate(0deg) scale(0.7) skew(1deg);
+            }
+            50% {
+                opacity: 0.2;
+                transform: rotate(0deg) scale(1) skew(1deg);
+            }
+            100% {
+                opacity: 0.2;
+                transform: rotate(0deg) scale(0.7) skew(1deg);
+            }
+        }
+        
+        #icons {
+            bottom: 80px;
+            left: auto;
+            padding-left: 0;
+            position: fixed;
+            right: 15px;
+            width: 50px;
+            z-index: 999;
+        }
+        
+        #icons li {
+            height: 50px;
+            list-style: outside none none;
+            margin-bottom: 15px;
+            width: 50px;
+        }
+        
+        .selector:not(*:root) #icons li {
+            height: 50px;
+            list-style: outside none none;
+            margin-bottom: 15px;
+            width: 50px;
+        }
+        
+        #icons {
+            bottom: 100px;
+            left: auto;
+            padding-left: 0;
+            position: fixed;
+            right: 15px;
+            width: 50px;
+            z-index: 999;
+        }
+        
+        #icons li {
+            height: 50px;
+            list-style: outside none none;
+            margin-bottom: 15px;
+            width: 50px;
+        }
+        
+        #adswsc_block br {
+            display: none !important;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .hide-love .post-nav {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+        }
+    </style>
+
 </body>
 
 </html>
