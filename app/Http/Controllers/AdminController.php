@@ -7,7 +7,7 @@ use DB;
 use Session;
 use Illuminate\Support\Facades\Redirect;
 session_start();
-
+use App\Account;
 class AdminController extends Controller
 {
     public function AuthLogin(){
@@ -35,7 +35,8 @@ class AdminController extends Controller
     }
     public function account(){
 		$this->AuthLogin();
-   		return view('admin.account');
+		$lstNumbers = Account::all();
+   		return view('admin.account')->with("lstNumbers", $lstNumbers);
     }
     public function dashboard(){
 		$this->AuthLogin();

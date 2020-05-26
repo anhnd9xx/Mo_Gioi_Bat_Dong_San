@@ -20,12 +20,14 @@ Route::get('/dich-vu', 'HomeController@service');
 Route::get('/dat-phong', 'HomeController@booking');
 Route::get('/dang-ky', 'HomeController@sign_up');
 Route::get('/dang-nhap', 'HomeController@sign_in');
+Route::get('/dang-xuat', 'HomeController@dang_xuat');
 Route::get('/phong-doi', 'HomeController@db_room');
 Route::get('/phong-vip1', 'HomeController@vip1');
 Route::get('/phong-vip2', 'HomeController@vip2');
 
 Route::post('/signUp', 'HomeController@signUp');
 Route::post('/signIn', 'HomeController@signIn');
+Route::post('/bookingProcess', 'HomeController@bookingProcess');
 
 
 

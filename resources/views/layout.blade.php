@@ -1074,13 +1074,33 @@
                         </div>
                         <!-- center -->
 
-                        <div class="flex-col hide-for-medium flex-right">
-                            <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+                        <div id="navbar" class="flex-col hide-for-medium flex-right collapse navbar-collapse">
+                            <ul class="nav top-bar-nav nav-right nav-small navbar-nav nav-divided">
+                                @if(Session::has("id"))
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle">
+                                    <span class="name">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                        <?php
+                                        $name = Session::get('name');
+                                        if($name) {
+                                        echo "Xin chào ".$name;
+                                        }
+                                        ?>
+                                    </span>
+                                    <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu extended logout">
+                                        <li><a href="{{URL::to('/dang-xuat')}}"><i class="fa fa-key"></i>Đăng xuất</a></li>
+                                    </ul>
+                                </li>
+                                @else
                                 <li class="html header-social-icons ml-0">
                                     <div class="social-icons follow-icons">
                                     <a href="{{URL::to('/dang-nhap')}}"  rel="noopener noreferrer nofollow" class="icon plain tooltip" ><i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</a><span>|</span>
                                     <a href="{{URL::to('/dang-ky')}}" rel="noopener noreferrer nofollow" class="icon plain tooltip" >Đăng ký</a>
                                 </li>
+                                @endif
                             </ul>
                         </div>
                         <!-- .flex-col right -->

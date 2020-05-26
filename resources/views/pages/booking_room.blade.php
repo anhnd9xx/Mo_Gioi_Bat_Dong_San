@@ -4,10 +4,6 @@
 <section class="section" id="section_750608817">
 		<div class="bg section-bg fill bg-fill  bg-loaded">
 
-			
-			
-			
-
 		</div><!-- .section-bg -->
 
 		<div class="section-content relative">
@@ -20,29 +16,27 @@
 <div class="col small-12 large-12"><div class="col-inner">
 
 <h1><strong><span style="color: #ab7727;">Liên hệ đặt phòng<br><img class="alignnonel wp-image-655" src="public/frontend/images/Path-736.png" alt="" width="175" height="1" srcset="public/frontend/images/Path-736.png 175w, public/frontend/images/Path-736-100x1.png 100w" sizes="(max-width: 175px) 100vw, 175px"><br></span></strong></h1>
+		@if(session("success"))	
+        <p style="color:#4caf50;">{{ session("success") }}</p>
+		@endif
+		@if(session("error"))
+        <p style="color:#f44336;">{{ session("error") }}</p>
+        @endif
 <div role="form" class="wpcf7" id="wpcf7-f11-p762-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="/dat-phong/#wpcf7-f11-p762-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="11">
-<input type="hidden" name="_wpcf7_version" value="5.1.7">
-<input type="hidden" name="_wpcf7_locale" value="en_US">
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f11-p762-o1">
-<input type="hidden" name="_wpcf7_container_post" value="762">
-</div>
+<form action="{{URL::to('/bookingProcess')}}" method="post" class="wpcf7-form" novalidate="novalidate">
 <div class="row">
-<!-- <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Họ và tên">
-<input type="tel" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Số điện thoại">
-<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email"> -->
-<div class="col medium-4"><span class="wpcf7-form-control-wrap room-type"><select name="room-type" class="wpcf7-form-control wpcf7-select room-type1" aria-invalid="false"><option value="Loại phòng">Loại phòng</option><option value="Double Room">Phòng đôi</option><option value="Small Room">Phòng VIP 1</option><option value="Family Room">Phòng VIP 2</option></select></span></div>
-<div class="col medium-4"><span class="wpcf7-form-control-wrap room-type"><select name="room-type" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="Số phòng">Số phòng</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></span></div>
-<div class="col medium-2"><span class="wpcf7-form-control-wrap ngayden"><span>Ngày đến:</span><input type="date" name="ngayden"  size="40"  aria-invalid="false"></span></div>
-<div class="col medium-2"><span class="wpcf7-form-control-wrap ngayden"><span>Ngày đi:</span><input type="date" name="ngayden" size="40" aria-invalid="false"></span></div>
-<div class="col medium-12"><span class="wpcf7-form-control-wrap your-message"><input type="text" name="your-message" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Ghi chú"></span> </div>
-<div class="col medium-12"><span class="wpcf7-form-control-wrap nguoimay"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><input type="checkbox" name="nguoimay[]" value="Tôi không phải là người máy"><span class="wpcf7-list-item-label">Tôi không phải là người máy</span></span></span></span></div>
+<div class="col medium-4"><span class="wpcf7-form-control-wrap room-type"><select name="category" class="wpcf7-form-control wpcf7-select room-type1" aria-invalid="false" ><option value="Phòng đôi">Loại phòng</option><option value="Phòng đôi">Phòng đôi</option><option value="Phòng VIP 1">Phòng VIP 1</option><option value="Phòng VIP 2">Phòng VIP 2</option></select></span></div>
+<div class="col medium-4"><span class="wpcf7-form-control-wrap room-type"><select name="amount" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="1">Số phòng</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></span></div>
+<div class="col medium-2"><span class="wpcf7-form-control-wrap ngayden"><span>Ngày đến:</span><input type="date" name="checkin"  size="40"  aria-invalid="false"></span></div>
+<div class="col medium-2"><span class="wpcf7-form-control-wrap ngayden"><span>Ngày đi:</span><input type="date" name="checkout" size="40" aria-invalid="false"></span></div>
+<div class="col medium-12"><span class="wpcf7-form-control-wrap your-message"><input type="text" name="note" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Ghi chú"></span> </div>
+<div class="col medium-12"><span class="wpcf7-form-control-wrap nguoimay"><span class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span class="wpcf7-list-item first last"><input type="checkbox" name="nguoimay" value="Tôi không phải là người máy"><span class="wpcf7-list-item-label">Tôi không phải là người máy</span></span></span></span></div>
 <div class="col medium-12"><input type="submit" value="Đặt phòng" class="wpcf7-form-control wpcf7-submit butt2"><span class="ajax-loader"></span></div>
 </div>
-<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+<div class="wpcf7-response-output wpcf7-display-none">
+	
+</div></form></div>
 
 
 </div></div>

@@ -9,6 +9,7 @@ use Session;
 use Illuminate\Support\Facades\Redirect;
 session_start();
 use App\Account;
+use App\Booking;
 
 
 class HomeController extends Controller
@@ -26,6 +27,7 @@ class HomeController extends Controller
         return view('pages.service');
     }
     public function booking(){
+        $this->AuthLogin()->with("error", "Bạn chưa đăng nhập! Vui lòng đăng nhập để đặt phòng");
         return view('pages.booking_room');
     }
     public function sign_up(){
@@ -43,6 +45,19 @@ class HomeController extends Controller
     public function vip2(){
         return view('pages.vip2');
     }
+    public function dang_xuat()
+   {
+      Session::put('name', null);
+      Session::put('id', null);
+      return Redirect::to('/dang-nhap');
+   }
+   public function AuthLogin()
+   {
+      $id=Session::get('id');
+      if ($id) {
+         return back();
+      } else return Redirect::to('/dang-nhap')->send();
+   }
 
     //xử lý đăng kí phòng
     public function signUp(Request $Request){
@@ -58,6 +73,23 @@ class HomeController extends Controller
          "password" => md5($Request->password),
         ]);
         return Redirect::to('/dang-nhap')->with("account",$account)->with("success","Đăng kí thành công, vui lòng đăng  nhập!");
+        }
+    }
+    //xử lý đăng kí phòng
+    public function bookingProcess(Request $Request){
+        if (!isset($Request->category) or !isset($Request->amount) or !isset($Request->checkin) or !isset($Request->checkout)) {
+            return Redirect::to('/dat-phong')->with("error", "Bạn nhập thiếu thông tin!");
+        }
+        else{
+        $booking = Booking::create([
+         "category" => $Request->category,
+         "amount" => $Request->amount,
+         "checkin" => $Request->checkin,
+         "checkout" => $Request->checkout,
+         "note" => $Request->note,
+        ]);
+
+        return Redirect::to('/dat-phong')->with("success","Đăng kí thành công, vui lòng đăng  nhập!");
         }
     }
     // xử lý đăng nhập người dùng
