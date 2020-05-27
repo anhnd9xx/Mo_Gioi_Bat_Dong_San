@@ -8,6 +8,7 @@ use Session;
 use Illuminate\Support\Facades\Redirect;
 session_start();
 use App\Account;
+use App\Booking;
 class AdminController extends Controller
 {
     public function AuthLogin(){
@@ -40,7 +41,8 @@ class AdminController extends Controller
     }
     public function dashboard(){
 		$this->AuthLogin();
-   		return view('admin.dashboard');
+		$lstNumbers = Booking::all();
+   		return view('admin.dashboard')->with("lstNumbers", $lstNumbers);
     }
     public function logout(){
 		session::put('admin_name',null);

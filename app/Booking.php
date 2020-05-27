@@ -8,6 +8,7 @@ class Booking extends Model
 {
     protected $table = "booking";
     protected $fillable = [
+        "name",
         "category",
         "amount",
         "checkin",

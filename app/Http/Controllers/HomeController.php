@@ -27,7 +27,7 @@ class HomeController extends Controller
         return view('pages.service');
     }
     public function booking(){
-        $this->AuthLogin()->with("error", "Bạn chưa đăng nhập! Vui lòng đăng nhập để đặt phòng");
+        $this->AuthLogin();
         return view('pages.booking_room');
     }
     public function sign_up(){
@@ -56,7 +56,7 @@ class HomeController extends Controller
       $id=Session::get('id');
       if ($id) {
          return back();
-      } else return Redirect::to('/dang-nhap')->send();
+      } else return Redirect::to('/dang-nhap')->send()->with("error", "Bạn chưa đăng nhập! Vui lòng đăng nhập để đặt phòng");
    }
 
     //xử lý đăng kí phòng
@@ -78,10 +78,11 @@ class HomeController extends Controller
     //xử lý đăng kí phòng
     public function bookingProcess(Request $Request){
         if (!isset($Request->category) or !isset($Request->amount) or !isset($Request->checkin) or !isset($Request->checkout)) {
-            return Redirect::to('/dat-phong')->with("error", "Bạn nhập thiếu thông tin!");
+            return back()->with("error", "Bạn nhập thiếu thông tin!");
         }
         else{
         $booking = Booking::create([
+            "name" => $Request->name,
          "category" => $Request->category,
          "amount" => $Request->amount,
          "checkin" => $Request->checkin,
